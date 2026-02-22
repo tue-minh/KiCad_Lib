@@ -1,0 +1,134 @@
+(footprint "tue_tantalum_6032"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.16 -4.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b3cb8b69-a076-4998-96bf-cea0d3845ac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 1.16 -2.77 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "992a3121-baa0-4330-a4f0-9f5f9f5ed293")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83df6b99-2399-4e65-89ed-c271cca9c853")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5624e4b3-e1df-44c3-b0c2-1ede5e00738c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 2.55 7.29)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "37f88b1c-a3fd-4731-8bf2-dab341676574")
+	)
+	(fp_text user "+"
+		(at 2.81 -0.29 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "27a7262a-9e39-40f9-8a2c-79f1364130e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.16 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5ea15cb2-4cea-47f7-9741-36ad29017752")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 2.7 7.49 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b5dbb421-25c5-4fa8-aedc-dc7989a33293")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.275 1.1)
+		(size 2.28 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "50858ae4-6ead-4d6c-b680-d26fe238d657")
+	)
+	(pad "2" smd roundrect
+		(at 1.275 6.18)
+		(size 2.28 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "5bf64cf6-c703-4737-9f59-d18695b3f155")
+	)
+	(embedded_fonts no)
+	(model "E:/Project_Kicad/LIB/Capacitor/cad/tantalum-surface-mount-capacitors/C 6032-28.step"
+		(offset
+			(xyz 1.25 -3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

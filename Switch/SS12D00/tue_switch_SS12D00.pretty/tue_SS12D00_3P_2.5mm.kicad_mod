@@ -1,0 +1,116 @@
+(footprint "tue_SS12D00_3P_2.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.92 -3.96 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7eb7e997-b138-4821-a859-f8aa8830f4e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SS-12D00-3P_2.5mm"
+		(at 1.92 -2.46 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fac0fc74-92f0-425e-82ef-df8e359e79a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dff5e680-33b8-4080-847a-af02c89a8d1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaf730bf-4f54-4c9b-bc5f-a7417eb87fc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 3.7 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ea6be78a-a624-4b48-8d03-7ea7b25ebe62")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.92 -0.96 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c69d214d-6dcf-4bdf-8ece-fb5ecdaee3e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.85 1.75)
+		(size 1.2 1.2)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bead523f-5a7a-4ff0-9ae5-4bdf5f7788dc")
+	)
+	(pad "2" thru_hole circle
+		(at 1.85 4.25)
+		(size 1.2 1.2)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "021b0ed1-90e3-4b4d-921c-e79909792089")
+	)
+	(pad "3" thru_hole circle
+		(at 1.85 6.75)
+		(size 1.2 1.2)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60c7014e-0efd-479b-9994-d438c6d02ace")
+	)
+	(embedded_fonts no)
+	(model "E:/Project_Kicad/LIB/Switch/SPDT slide switch SS12D00.step"
+		(offset
+			(xyz 1.85 -4.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
