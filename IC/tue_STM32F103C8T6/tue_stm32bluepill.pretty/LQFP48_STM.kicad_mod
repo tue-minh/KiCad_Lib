@@ -2352,7 +2352,7 @@
 		(uuid "f14e9a33-9a28-49d1-8b70-f5158b086306")
 	)
 	(fp_text user "*"
-		(at -5.582399 -3.381 0)
+		(at -2.51 -2.71 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "81e3be5a-504e-46ea-afa0-609c9ff053f4")
@@ -2364,7 +2364,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -5.582399 -3.381 0)
+		(at -3.02 -2.25 0)
 		(layer "F.SilkS")
 		(uuid "e1dbb637-2e19-46f4-9e5b-8821000e91f4")
 		(effects
