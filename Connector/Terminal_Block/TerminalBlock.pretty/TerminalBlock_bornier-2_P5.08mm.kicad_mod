@@ -220,15 +220,15 @@
 		(uuid "b6b83b36-ad4b-4b9c-b482-d0be3ea608f7")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl"
+	(model "E:/Project_Kicad/LIB/Connector/Terminal_Block/2er Terminal Block.step"
 		(offset
-			(xyz 2.539999962 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
