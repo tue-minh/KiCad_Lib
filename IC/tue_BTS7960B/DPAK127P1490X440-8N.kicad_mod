@@ -284,8 +284,8 @@
 		(uuid "00347691-f0c6-4d2c-b689-d96b12e73bf6")
 	)
 	(pad "8" smd rect
-		(at 3.71 0)
-		(size 8.29 10.07)
+		(at 3.75 0)
+		(size 8.7 10.6)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "ecd1a253-5bc0-4300-85c9-ca0feb51ef58")
